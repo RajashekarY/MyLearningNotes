@@ -1,10 +1,6 @@
-# Git Commands for updating local repo to online 
-```bash
-git add [file name] # file single file specifically
-git add -A # appends all the files in current_dir/local repo
-git commit origin [Branch] #Master branch is always deployable so trail/training code on sub branches 
-git push
-```
+# GIT - A version control system
+In software development we make many changes time to time where we add a lot of features and remove any of them and feel like somthing missing after removal and try to add them back which is a pretty confusing process to manage which version of our software has that feature and track spectific change happend a long back
+### Creating a git Repo. in command line 
 # Git Cloning a Repo.
 ### Type 1
 git clone [repo address](https://github.com/DSPavan/PyClassNotes.git)
@@ -20,3 +16,10 @@ git remote add upstream https://github.com/DSPavan/PyClassNotes.git
 git pull origin master
 ```
     
+# Git Commands for updating local repo to online 
+```bash
+git add [file name] # file single file specifically
+git add -A # appends all the files in current_dir/local repo
+git commit origin [Branch] #Master branch is always deployable so trail/training code on sub branches 
+git push
+```
