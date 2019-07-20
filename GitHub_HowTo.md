@@ -6,12 +6,17 @@ git commit origin [Branch] #Master branch is always deployable so trail/training
 git push
 ```
 # Git Cloning a Repo.
-1. git clone [repo address](https://github.com/DSPavan/PyClassNotes.git)
+### Type 1
+git clone [repo address](https://github.com/DSPavan/PyClassNotes.git)
 > To update the local repo with online changes made to original repo 
-
+git pull origin [Branch] # master, development
+### Type 2
 If you are having an empty repo with or without related to the cloning directory but you can link that directory like this  
-```bash
-git remote add upstream [git HTTPS URL](https://github.com/DSPavan/PyClassNotes.git)
-git pull upstream master
+git init #it is initilisation of git with local directory
+
+> linking folder and  online git
+```
+git remote add upstream https://github.com/DSPavan/PyClassNotes.git
+git pull origin master
 ```
     
